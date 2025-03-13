@@ -1,0 +1,6 @@
+@config {
+    darkMode: 'class'; /* Habilita el modo oscuro basado en una clase */
+  }
+  
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
